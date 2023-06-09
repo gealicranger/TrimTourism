@@ -7,9 +7,9 @@ Differences from Design Plan: ______________
 Attribution: (code you have adapted from other sources).
 Navbar from W3S, Image slider on index page from W3S__________
 
-Interactive Features Implemented:_____________ on Page _____
-Animations Implemented: ________________ on Page _______
-HTML 5 feature/s used: _____________________on Page ___________
+Interactive Features Implemented:slider_ on Page Historical Sites_____
+Animations Implemented: ________________ on Page Events
+HTML 5 feature/s used: ______________on Page Acommodation
 
 Ideas for further development: ___________________________
 
