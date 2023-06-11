@@ -170,10 +170,10 @@
 
 /*Form for Contact info starts here*/
 .page-container {
-  width: 50%;
-  margin:1em auto;
-  background-color: #fff;
+  width: 50%;  
+  background-color: salmon;
   padding: 2em;
+  margin: 1em auto;
 }
 
 textarea {
@@ -196,9 +196,10 @@ label, input, textarea {
 }
 
 .field-error {
-  color: red;
+  color: rgb(0, 255, 242);
   font-weight: bold;
 }
+
 /* form for contact ends here*/
 
 body {
@@ -222,13 +223,10 @@ div.a {
 
 footer {
   background-color: aquamarine;
-  font-size: 1.5em;
-  padding: 25px;
-  position: absolute;
-  right: 0;
-  left: 0;
+  font-size: 1.5em;  
   bottom: 0;
   text-align: center;
+  
 }
 
 /* Events css animation */
@@ -237,19 +235,20 @@ div.animation1 {
   height: 100px;
   background-color: rgb(0, 255, 200);
   animation-name: fun;
-  animation-duration: 6s;
+  animation-duration: 5s;
   text-align: center;
   font-size: 2em;
   font-style: italic;
-
-  
+  margin-top: 1em;  
+  position: relative;
 }
 
 @keyframes fun {
-  from {background-color: rgb(0, 255, 200);}
-  to {background-color: yellow;}
-  to {background-color: aqua;}
-  to {background-color: #f0860c;}
+  0% {background-color: rgb(0, 255, 200); left: 0px; top: 0px;}
+  25% {background-color: yellow;left: 200px; top: 0px;}
+  50% {background-color: aqua;left: 200px; top: 200px;}
+  75% {background-color: #f0860c;left: 0px; top: 200px;}
+  100% {background-color: #b44316;left: 0px; top: 0px;}
 }
 
 /* Events css transition */
@@ -276,7 +275,18 @@ div.hotels {
   background: rgb(0, 255, 179);
   transition: width 2s;
   text-align: center;
+  margin: 1em;
 }
 div.hotels:hover {
   width: 50%;
 }
+
+video {
+  padding: 2em 2em;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5em;
+  font-style: italic;
+}  

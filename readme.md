@@ -13,7 +13,7 @@ HTML 5 feature/s used: ______________on Page Acommodation
 
 Ideas for further development: ___________________________
 
-Any code not working properly? The feature is ___________ and evidence of it can be found on Page ________________
+Any code not working properly? The feature is form validation and evidence of it can be found on Page contact.html
 
 Any additional stylesheets/frameworks used that were approved are:
 1.
